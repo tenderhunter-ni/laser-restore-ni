@@ -1,8 +1,10 @@
 # Laser Restore NI — static website
 
-Canonical site: **https://laserrestoreni.co.uk**
+Canonical site: **https://laserrestoreni.co.uk** (DNS pending at registrar)  
+**Live now:** https://tenderhunter-ni.github.io/laser-restore-ni/  
+Repo: https://github.com/tenderhunter-ni/laser-restore-ni
 
-Mobile-first static site for photo quotes. Primary CTA: send photos for a quote.
+Mobile-first static site. Primary CTA: **send photos for a quote**.
 
 ## Contact
 - Phone: [07734 307174](tel:+447734307174)
@@ -24,3 +26,6 @@ Mobile-first static site for photo quotes. Primary CTA: send photos for a quote.
 cd website && python3 -m http.server 8765
 ```
 Open http://127.0.0.1:8765/
+
+## Deploy notes
+See `/workspace/laser-restore-ni/WEBSITE_STATUS.md` for DNS records and Vercel auth blockers.
