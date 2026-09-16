@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Get a quote | Laser Restore NI</title>
+  <meta name="description" content="Photo quote form that opens a prefilled email to jamie@laserrestoreni.co.uk — attach photos before sending.">
+  <meta name="theme-color" content="#0284c7">
+  <link rel="canonical" href="https://laserrestoreni.co.uk/quote.html">
+  <meta property="og:url" content="https://laserrestoreni.co.uk/quote.html">
+  <meta property="og:site_name" content="Laser Restore NI">
+  <link rel="icon" href="img/logo-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="img/logo.svg" width="220" height="50" alt="Laser Restore NI">
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="automotive.html">Automotive</a></li>
+          <li><a href="engineering.html">Engineering</a></li>
+          <li><a href="agricultural.html">Agricultural</a></li>
+          <li><a href="heritage.html">Heritage</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="quote.html" class="cta-link" aria-current="page">Get a quote</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-hero">
+      <div class="container">
+        <p class="breadcrumbs"><a href="index.html">Home</a> / Quote</p>
+        <h1>Photo quote</h1>
+        <p class="lead" style="margin:0;max-width:42rem">Fill the form — it opens a prefilled email to <strong>jamie@laserrestoreni.co.uk</strong>. Then <strong>attach your photos</strong> (and an optional short video) before you send. Mailto cannot attach files automatically. Qualified commercial customers can ask for a small free <strong>test patch</strong> (demo, not a free job).</p>
+      </div>
+    </div>
+    <section class="section">
+      <div class="container">
+        <form class="form" id="quote-form" novalidate>
+          <div class="row">
+            <div>
+              <label for="name">Name *</label>
+              <input id="name" name="name" autocomplete="name" required>
+            </div>
+            <div>
+              <label for="business">Business (if any)</label>
+              <input id="business" name="business" autocomplete="organization" placeholder="Company or trading name">
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <label for="phone">Phone *</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email">
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <label for="town">Location / town</label>
+              <input id="town" name="town" placeholder="e.g. Coleraine, Ballymena…">
+            </div>
+            <div>
+              <label for="sector">Item / sector type</label>
+              <select id="sector" name="sector">
+                <option value="">Select…</option>
+                <option>Automotive / classic</option>
+                <option>Engineering / fabrication</option>
+                <option>Agricultural / farm</option>
+                <option>Plant / hire yard</option>
+                <option>Heritage / specialty</option>
+                <option>Free test patch request (commercial)</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+          <label for="item">What needs cleaning? *</label>
+          <textarea id="item" name="item" rows="3" required placeholder="e.g. Pair of farm gates, trailer chassis, weld prep on mild steel frames…"></textarea>
+          <div class="row">
+            <div>
+              <label for="material">Material</label>
+              <input id="material" name="material" placeholder="Mild steel, stainless, cast iron…">
+            </div>
+            <div>
+              <label for="contaminant">What needs removed</label>
+              <input id="contaminant" name="contaminant" placeholder="Light rust, thin paint, oil film, weld oxide…">
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <label for="size">Approximate size</label>
+              <input id="size" name="size" placeholder="e.g. 2× gate leaves, 1.5 m chassis section…">
+            </div>
+            <div>
+              <label for="site">Workshop or mobile?</label>
+              <select id="site" name="site">
+                <option value="">Select…</option>
+                <option>Mobile — clean at my site</option>
+                <option>Workshop — I can bring small parts in</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <label for="timing">Preferred timing</label>
+              <input id="timing" name="timing" placeholder="ASAP / next fortnight…">
+            </div>
+            <div>
+              <label for="access">Access / power notes</label>
+              <input id="access" name="access" placeholder="Yard, workshop, 13A / 16A available…">
+            </div>
+          </div>
+          <label for="notes">Message / anything else</label>
+          <textarea id="notes" name="notes" rows="3" placeholder="Optional video available — attach after email opens."></textarea>
+          <div class="attach-note">
+            <strong>Attach photos after the email opens.</strong> Include overall shots plus close-ups of the worst areas. A short video of access helps. Without photos we can only give a very wide guide band — we do not auto-price.
+          </div>
+          <div class="actions">
+            <button class="btn btn-primary" type="submit">Open email to jamie@laserrestoreni.co.uk</button>
+            <a class="btn btn-secondary" href="mailto:jamie@laserrestoreni.co.uk?subject=Laser%20Restore%20NI%20quote">Or email blank</a>
+          </div>
+          <p class="hint">Phone alternative: <a href="tel:+447734307174"><strong>07734 307174</strong></a></p>
+          <p id="mailto-followup" class="attach-note" hidden>
+            If your email app opened, <strong>attach photos now</strong> and press send. If nothing opened, email <a href="mailto:jamie@laserrestoreni.co.uk">jamie@laserrestoreni.co.uk</a> directly with the same details and photos.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Laser Restore NI</h3>
+        <p>Mobile pulsed laser cleaning from Ballymoney, covering the Causeway Coast and mid-Antrim.</p>
+        <p>Email: <a href="mailto:jamie@laserrestoreni.co.uk">jamie@laserrestoreni.co.uk</a><br>
+        Web: <a href="https://laserrestoreni.co.uk">laserrestoreni.co.uk</a><br>
+        Phone: <a href="tel:+447734307174"><strong>07734 307174</strong></a></p>
+      </div>
+      <div>
+        <h3>Services</h3>
+        <ul>
+          <li><a href="automotive.html">Automotive</a></li>
+          <li><a href="engineering.html">Engineering &amp; fab</a></li>
+          <li><a href="agricultural.html">Agricultural</a></li>
+          <li><a href="heritage.html">Heritage (selective)</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Next step</h3>
+        <ul>
+          <li><a href="quote.html">Photo quote</a></li>
+          <li><a href="about.html">About &amp; safety</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container fineprint">
+      <p>Honest scope: we clean light–moderate rust, thin coatings, oil film and weld discoloration with a portable 300W pulsed Class&nbsp;4 fibre laser. We do not advertise lead-paint stripping, ship hulls, thick mill scale at production speed, or laser marking. Quotes are indicative until confirmed on site. We are not affiliated with Laser Cleaning NI (Ballymena) or other operators.</p>
+      <p>&copy; 2026 Laser Restore NI · Ballymoney, Northern Ireland</p>
+    </div>
+  </footer>
+  <script src="js/site.js"></script>
+</body>
+</html>
