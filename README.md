@@ -1,7 +1,7 @@
 # Laser Restore NI — static website
 
 Canonical site: **https://laserrestoreni.co.uk** (DNS pending at registrar)  
-**Live now:** https://tenderhunter-ni.github.io/laser-restore-ni/  
+**Live now:** https://laserrestoreni.co.uk/  
 Repo: https://github.com/tenderhunter-ni/laser-restore-ni
 
 Mobile-first static site. Primary CTA: **send photos for a quote**.
@@ -18,7 +18,7 @@ Mobile-first static site. Primary CTA: **send photos for a quote**.
 - `quote.html` — form → prefilled mailto:jamie@laserrestoreni.co.uk
 
 ## Assets
-- `css/styles.css` · `js/site.js` · `img/logo.svg` · `img/logo-mark.svg` · `img/logo-primary.png`
+- `css/styles.css` · `js/site.js` · `img/logo-primary.png` (header/brand, same as Facebook) · favicons · hero/gallery brand covers
 - `robots.txt` · `sitemap.xml` · `vercel.json`
 
 ## Local preview
@@ -26,6 +26,9 @@ Mobile-first static site. Primary CTA: **send photos for a quote**.
 cd website && python3 -m http.server 8765
 ```
 Open http://127.0.0.1:8765/
+
+## Custom domain
+- `CNAME` → `laserrestoreni.co.uk` (GitHub Pages)
 
 ## Deploy notes
 See `/workspace/laser-restore-ni/WEBSITE_STATUS.md` for DNS records and Vercel auth blockers.
